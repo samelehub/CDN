@@ -4,6 +4,15 @@
   background-size: cover;
   width: 100%;
   min-height: 100%;
+  cursor: url(https://cdn.jsdelivr.net/gh/CDN@latest/images/cursor/default.cur);
+}
+
+a:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/CDN@latest/images/cursor/pointer.cur);
+}
+
+button:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/CDN@latest/images/cursor/pointer.cur);
 }
 
 .container p {
