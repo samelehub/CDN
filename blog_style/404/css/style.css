@@ -4,15 +4,15 @@
   background-size: cover;
   width: 100%;
   min-height: 100%;
-  cursor: url(https://cdn.jsdelivr.net/gh/CDN@latest/images/cursor/default.cur);
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/default.cur) auto !important;
 }
 
 a:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/CDN@latest/images/cursor/pointer.cur);
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur) auto !important;
 }
 
 button:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/CDN@latest/images/cursor/pointer.cur);
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur) auto !important;
 }
 
 .container p {
@@ -49,7 +49,7 @@ button:hover {
   border: 0px solid;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   transition: 1s all;
-  cursor: pointer;
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur) auto !important;
 }
 
 .logo img {

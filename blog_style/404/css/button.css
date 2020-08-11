@@ -53,7 +53,7 @@
 
 .button--antiman:hover {
   color: #0046ff;
-  cursor: pointer;
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur) auto !important;
 }
 
 .button--antiman:hover::before {
