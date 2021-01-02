@@ -1829,11 +1829,12 @@
           : ((s = function (e, t) {
               return (
                 e &&
-                  Array.prototype.forEach.call(e.length ? e : [e], function (
-                    e
-                  ) {
-                    return n(e)
-                  }),
+                  Array.prototype.forEach.call(
+                    e.length ? e : [e],
+                    function (e) {
+                      return n(e)
+                    }
+                  ),
                 e
               )
             }),
@@ -2565,7 +2566,7 @@
             L = function (t) {
               if (
                 e.config.requiredFields.indexOf('nick') > -1 &&
-                E.nick.length < 3
+                E.nick.length < 1
               )
                 return (
                   v.nick[0].focus(),
